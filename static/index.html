@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>TechCare AI Support</title>
+
+    <link rel="stylesheet"
+          href="/static/style.css">
+
+</head>
+
+
+<body>
+
+    <div class="chat-container">
+
+        <!-- HEADER -->
+        <header class="chat-header">
+
+            <div class="brand">
+
+                <div class="logo">
+                    TC
+                </div>
+
+                <div class="brand-info">
+
+                    <h1>
+                        TechCare Solutions
+                    </h1>
+
+                    <p>
+                        AI Customer Support
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="header-actions">
+
+                <div class="status">
+
+                    <span class="status-dot"></span>
+
+                    Online
+
+                </div>
+
+                <button
+                    id="clear-button"
+                    class="clear-button"
+                >
+                    Clear
+                </button>
+
+            </div>
+
+        </header>
+
+
+        <!-- CHAT AREA -->
+        <main id="chat-box"
+              class="chat-box">
+
+            <div class="message bot-message">
+
+                <div class="avatar">
+                    AI
+                </div>
+
+                <div class="message-content">
+
+                    <div class="message-name">
+                        TechCare AI
+                    </div>
+
+                    <div class="message-text">
+
+                        Hello! 👋
+
+                        Welcome to TechCare Solutions.
+
+                        How can I help you today?
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+
+        <!-- TYPING INDICATOR -->
+        <div
+            id="typing-indicator"
+            class="typing-indicator hidden"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            TechCare AI is typing...
+
+        </div>
+
+
+        <!-- INPUT -->
+        <footer class="chat-input-area">
+
+            <input
+                type="text"
+                id="message-input"
+                placeholder="Type your message..."
+                autocomplete="off"
+            >
+
+            <button id="send-button">
+                Send
+            </button>
+
+        </footer>
+
+    </div>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>

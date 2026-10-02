@@ -1,0 +1,28 @@
+{
+    "company": {
+        "name": "TechCare Solutions",
+        "description": "TechCare Solutions provides AI, web development and cloud solutions for businesses."
+    },
+
+    "services": [
+        "AI Development",
+        "Web Development",
+        "Cloud Solutions"
+    ],
+
+    "working_hours": {
+        "days": "Monday - Friday",
+        "hours": "9:00 AM - 6:00 PM"
+    },
+
+    "contact": {
+        "support_email": "support@techcare.example"
+    },
+
+    "refund_policy": {
+        "period": "7 days",
+        "description": "Refund requests can be submitted within 7 days."
+    },
+
+    "location": "India"
+}
