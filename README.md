@@ -1,25 +1,34 @@
 # 🤖 TechCare AI Customer Support Chatbot
 
-An AI-powered customer support chatbot built with Python, FastAPI, JavaScript, HTML and CSS.
+An AI-powered customer support chatbot built with **Python, FastAPI, HTML, CSS, and JavaScript**.
 
-The chatbot provides customer support using a structured business knowledge base and can be integrated with an LLM API for AI-powered responses.
+The chatbot provides automated customer support using a structured business knowledge base, conversation handling, and optional LLM integration. It also includes a web-based chat interface and a local fallback system for reliable responses.
+
+## 🚀 Live Demo
+
+**Live Application:**  
+https://9qmb.onrender.com
+
+> Note: The application is deployed on Render's free instance. After a period of inactivity, the first request may take some time while the service starts again.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- AI Customer Support Chatbot
-- Business Knowledge Base
-- FastAPI REST API
-- Conversation Memory
-- Web-based Chat Interface
-- Local Fallback System
-- Error Handling
-- Health Check Endpoint
-- Responsive UI
-- Clear Chat Functionality
-- Typing Indicator
-- LLM API Integration
+- 🤖 AI Customer Support Chatbot
+- 📚 Business Knowledge Base
+- 🧠 Conversation Memory
+- ⚡ FastAPI REST API
+- 🌐 Web-based Chat Interface
+- 🔄 Local Fallback System
+- 🛡️ Error Handling
+- ❤️ Health Check Endpoint
+- 📱 Responsive UI
+- 🧹 Clear Chat Functionality
+- ⌨️ Enter-to-Send Support
+- ⏳ Typing Indicator
+- 🔌 LLM API Integration
+- ☁️ Cloud Deployment
 
 ---
 
@@ -31,43 +40,43 @@ The chatbot provides customer support using a structured business knowledge base
 - FastAPI
 - Uvicorn
 - OpenAI API
+- python-dotenv
 
 ### Frontend
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
-### Other
+### Data & Tools
 
 - JSON
-- python-dotenv
 - Git
 - GitHub
+- Render
 
 ---
 
-## 📁 Project Structure
+## 🏗️ Project Architecture
 
 ```text
-AI-Customer-Support-Chatbot/
-│
-├── app/
-│   ├── __init__.py
-│   ├── api.py
-│   └── chatbot.py
-│
-├── data/
-│   └── company_faq.json
-│
-├── static/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── screenshots/
-├── tests/
-├── .env
-├── .gitignore
-├── README.md
-└── requirements.txt
+User
+  │
+  ▼
+Web Chat Interface
+  │
+  ▼
+FastAPI Backend
+  │
+  ▼
+Chatbot Logic
+  │
+  ├──────────────► Business Knowledge Base
+  │
+  └──────────────► LLM API
+                         │
+                         ▼
+                    AI Response
+                         │
+                         ▼
+                  User Interface
