@@ -7,7 +7,7 @@ The chatbot provides automated customer support using a structured business know
 ## 🚀 Live Demo
 
 **Live Application:**  
-https://9qmb.onrender.com
+https://ai-customer-support-chatbot-9qmb.onrender.com/
 
 > Note: The application is deployed on Render's free instance. After a period of inactivity, the first request may take some time while the service starts again.
 
